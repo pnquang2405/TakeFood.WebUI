@@ -25,7 +25,7 @@ jobs:
         run: |
           rm -r package-lock.json
           npm install
-          npm start index.js
+          npm start
       
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v2
