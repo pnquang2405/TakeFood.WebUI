@@ -23,7 +23,6 @@ jobs:
 
       - name: npm install, build, and test
         run: |
-          rm -r node_modules
           rm -r package-lock.json
           npm install
           npm run build --if-present
